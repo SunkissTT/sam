@@ -1,0 +1,37 @@
+# Virtual Environment
+.env/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Datasets (Large Files)
+data/
+data_food101/
+datasets/
+GLIP/DATASET/
+*.tar
+*.zip
+*.tar.gz
+
+# Model Weights
+*.pth
+*.ckpt
+*.h5
+
+# Results & Logs
+results/
+results_*/
+*.txt
+*.json
+*.log
+grad_cam_*.py
+!requirements.txt
+!README.md
+!*.py
+
+# OS
+.DS_Store
